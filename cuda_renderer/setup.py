@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
+from pathlib import Path
+
+from setuptools import setup
 from torch.utils.cpp_extension import CUDAExtension, BuildExtension
-import os
 
 module_name = 'cuda_renderer'
+root = Path(__file__).resolve().parent
 
 setup(
     name=module_name,
@@ -14,8 +16,8 @@ setup(
         CUDAExtension(
             name='{}.{}'.format(module_name, '_splat_cuda'),
             sources=[
-                "splat_binding.cpp",
-                "splat_cuda_kernel.cu",
+                str(root / "splat_binding.cpp"),
+                str(root / "splat_cuda_kernel.cu"),
             ],
             extra_compile_args={'cxx': ['-O3'], 'nvcc': ['-O3']}
         ),
