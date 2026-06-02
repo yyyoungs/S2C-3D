@@ -13,7 +13,10 @@ This repository contains the source code for "Sparse-to-Complete: From Sparse Im
 
 ### Clone
 
+Clone [yyyoungs/S2C-3D.git](https://github.com/yyyoungs/S2C-3D.git):
+
 ```bash
+git clone https://github.com/yyyoungs/S2C-3D.git
 cd S2C-3D
 ```
 
