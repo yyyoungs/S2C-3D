@@ -1,12 +1,6 @@
 import torch
 import torch.nn.functional as F
 
-
-def homogenize_points(points: torch.Tensor) -> torch.Tensor:
-    """Convert xyz points to homogeneous xyz1 points."""
-    return torch.cat([points, torch.ones_like(points[..., :1])], dim=-1)
-
-
 def depth_edge(
     depth: torch.Tensor,
     atol: float | None = None,

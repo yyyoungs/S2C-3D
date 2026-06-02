@@ -13,24 +13,17 @@ This repository contains the source code for "Sparse-to-Complete: From Sparse Im
 
 ### Clone
 
-Clone [yyyoungs/S2C-3D.git](https://github.com/yyyoungs/S2C-3D.git):
+Clone the repository with the Pi3 submodule:
 
 ```bash
-git clone https://github.com/yyyoungs/S2C-3D.git
+git clone --recursive https://github.com/yyyoungs/S2C-3D.git
 cd S2C-3D
 ```
 
-The Pi3 source code is expected under:
-
-```text
-Pi3/Pi3-main/
-```
-
-If your release does not include it, clone Pi3 there:
+For an existing clone, initialize the submodule with:
 
 ```bash
-mkdir -p Pi3
-git clone https://github.com/yyfz/Pi3.git Pi3/Pi3-main
+git submodule update --init --recursive
 ```
 
 ### Environment

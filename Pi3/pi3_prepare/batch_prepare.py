@@ -72,8 +72,6 @@ def run_scene_preparation(
         str(PREPARE_SCENE_SCRIPT),
         "--data_path",
         str(scene_dir),
-        "--view",
-        "all",
         "--device",
         args.device,
     ]
@@ -121,11 +119,6 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_PI3_ROOT,
         help="Path to the cloned Pi3 repository. Default: ../Pi3-main.",
-    )
-    parser.add_argument(
-        "--view",
-        default=None,
-        help="Deprecated compatibility option. This version always writes all_views/.",
     )
     parser.add_argument(
         "--view_dirs",

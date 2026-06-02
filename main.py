@@ -227,8 +227,6 @@ class PipelineOrchestrator:
             PI3_PREPARE_SCRIPT,
             "--scene_path",
             image_root_dir,
-            "--view",
-            "all",
         ]
         _run_command(command)
 
