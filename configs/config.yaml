@@ -1,0 +1,49 @@
+main_model:
+  data_dir: "./example/6_views"
+  case_dir: ""
+  result_dir: "./test"
+  # [Pi3, phase1, phase2, phase3, gui]
+  steps: [1,1,1,1,1]
+pipeline_options:
+    gs_config: "default"
+    data_factor: 1
+    test_every: 1
+    normalize_world_space: False
+camera_planning_model:
+    sphere_radius: 0.05
+    init_coverage_threshold: 0.0
+    new_coverage_threshold: 0.1
+    arc_distance_threshold: 0.20
+    nearest_camera_count: 2
+    translation_weight: 1.0
+    rotation_weight: 1.0
+    xy_sample_range: 0.6
+    z_sample_range: 0.5
+    max_consecutive_failures: 30
+noise_model:
+    add_noise_steps: 50
+    remove_steps: 10
+    add_mask_steps: 100
+    end_steps: 19999
+    ckpt: ""
+lora_model:
+    eval_freq: 100
+    viz_freq: 100
+    save_steps: 3000
+    Lora_steps: 6000
+    mixed_precision: "bf16"
+    learning_rate: "2e-5"
+    train_batch_size: 2
+    dataloader_num_workers: 0
+    enable_xformers_memory_efficient_attention: True
+    lambda_lpips: 1.0
+    lambda_l2: 1.0
+    lambda_gram: 1.0
+    gram_loss_warmup_steps: 1000
+    report_to: "wandb"
+    timestep: 199
+    data_factor: 1
+recon_model:
+    repeat_times: 4
+    refine_steps: 5999
+    end_refine_steps: 19999

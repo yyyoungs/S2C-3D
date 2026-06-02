@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-03-13T17:23:16.511044",
+  "gpu": "NVIDIA A800-SXM4-80GB",
+  "gpu_total_mb": 81222,
+  "model": "pi3x",
+  "dtype": "torch.bfloat16",
+  "multimodal": false,
+  "model_vram_mb": 3790,
+  "results": [
+    {
+      "Resolution": "224x224",
+      "Pixels": "50K",
+      "Patches/img": 256,
+      "Max N": 4096,
+      "Total patches": 1048576,
+      "Peak VRAM (MB)": "47755",
+      "VRAM util %": "58.8",
+      "MB/img": "10.7",
+      "Time (s)": "517.47",
+      "Img/s": "7.9"
+    },
+    {
+      "Resolution": "336x336",
+      "Pixels": "113K",
+      "Patches/img": 576,
+      "Max N": 1024,
+      "Total patches": 589824,
+      "Peak VRAM (MB)": "28994",
+      "VRAM util %": "35.7",
+      "MB/img": "24.6",
+      "Time (s)": "162.91",
+      "Img/s": "6.3"
+    },
+    {
+      "Resolution": "336x504",
+      "Pixels": "169K",
+      "Patches/img": 864,
+      "Max N": 1024,
+      "Total patches": 884736,
+      "Peak VRAM (MB)": "40632",
+      "VRAM util %": "50.0",
+      "MB/img": "36.0",
+      "Time (s)": "359.58",
+      "Img/s": "2.8"
+    },
+    {
+      "Resolution": "364x504",
+      "Pixels": "183K",
+      "Patches/img": 936,
+      "Max N": 1024,
+      "Total patches": 958464,
+      "Peak VRAM (MB)": "43568",
+      "VRAM util %": "53.6",
+      "MB/img": "38.8",
+      "Time (s)": "419.88",
+      "Img/s": "2.4"
+    },
+    {
+      "Resolution": "378x672",
+      "Pixels": "254K",
+      "Patches/img": 1296,
+      "Max N": 512,
+      "Total patches": 663552,
+      "Peak VRAM (MB)": "39048",
+      "VRAM util %": "48.1",
+      "MB/img": "68.9",
+      "Time (s)": "203.51",
+      "Img/s": "2.5"
+    },
+    {
+      "Resolution": "504x504",
+      "Pixels": "254K",
+      "Patches/img": 1296,
+      "Max N": 512,
+      "Total patches": 663552,
+      "Peak VRAM (MB)": "39046",
+      "VRAM util %": "48.1",
+      "MB/img": "68.9",
+      "Time (s)": "203.68",
+      "Img/s": "2.5"
+    },
+    {
+      "Resolution": "518x518",
+      "Pixels": "268K",
+      "Patches/img": 1369,
+      "Max N": 512,
+      "Total patches": 700928,
+      "Peak VRAM (MB)": "40924",
+      "VRAM util %": "50.4",
+      "MB/img": "72.5",
+      "Time (s)": "227.14",
+      "Img/s": "2.3"
+    },
+    {
+      "Resolution": "672x672",
+      "Pixels": "452K",
+      "Patches/img": 2304,
+      "Max N": 256,
+      "Total patches": 589824,
+      "Peak VRAM (MB)": "48093",
+      "VRAM util %": "59.2",
+      "MB/img": "173.1",
+      "Time (s)": "162.46",
+      "Img/s": "1.6"
+    },
+    {
+      "Resolution": "504x896",
+      "Pixels": "452K",
+      "Patches/img": 2304,
+      "Max N": 256,
+      "Total patches": 589824,
+      "Peak VRAM (MB)": "48097",
+      "VRAM util %": "59.2",
+      "MB/img": "173.1",
+      "Time (s)": "161.97",
+      "Img/s": "1.6"
+    }
+  ]
+}
