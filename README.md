@@ -209,14 +209,11 @@ S2C-3D/
 ## BibTeX
 
 ```bibtex
-@misc{shen2026sparsetocompletesparseimagecaptures,
-  title         = {Sparse-to-Complete: From Sparse Image Captures to Complete 3D Scenes},
-  author        = {Yiyang Shen and Yin Yang and Kun Zhou and Tianjia Shao},
-  year          = {2026},
-  eprint        = {2605.05664},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2605.05664},
+@article{shen2026sparse,
+  title={Sparse-to-Complete: From Sparse Image Captures to Complete 3D Scenes},
+  author={Shen, Yiyang and Yang, Yin and Zhou, Kun and Shao, Tianjia},
+  journal={arXiv preprint arXiv:2605.05664},
+  year={2026}
 }
 ```
 
