@@ -116,7 +116,7 @@ python main.py --cuda_devices 0 \
 Outputs are written to:
 
 ```text
-test/<scene_id>/
+<result_dir>/<scene_id>/
 ├── phase1/
 ├── phase2/
 └── phase3/
