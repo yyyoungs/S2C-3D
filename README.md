@@ -125,7 +125,7 @@ test/<scene_id>/
 The final Gaussian checkpoint is:
 
 ```text
-test/<scene_id>/phase3/gs/gs.pth
+<result_dir>/<scene_id>/phase3/gs/gs.pth
 ```
 
 For example, after a scene is fully reconstructed, open only the GUI:
