@@ -209,10 +209,11 @@ S2C-3D/
 ## BibTeX
 
 ```bibtex
-@article{shen2026sparse,
+@inproceedings{shen2026sparse,
   title={Sparse-to-Complete: From Sparse Image Captures to Complete 3D Scenes},
   author={Shen, Yiyang and Yang, Yin and Zhou, Kun and Shao, Tianjia},
-  journal={arXiv preprint arXiv:2605.05664},
+  booktitle={Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
+  pages={1--11},
   year={2026}
 }
 ```
