@@ -5,7 +5,7 @@ Yiyang Shen, Yin Yang, Kun Zhou, Tianjia Shao
 SIGGRAPH 2026
 
 [[Project Page](https://gapszju.github.io/S2C-3D/)]
-[[Paper](https://arxiv.org/abs/2605.05664)]
+[[Paper](https://dl.acm.org/doi/10.1145/3799902.3811099)]
 
 This repository contains the source code for "Sparse-to-Complete: From Sparse Image Captures to Complete 3D Scenes".
 
